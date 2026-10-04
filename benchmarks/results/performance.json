@@ -1,0 +1,142 @@
+{
+  "machine": {
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.13.15"
+  },
+  "frames": {
+    "source": "synthetic 1280x720, LFW faces ~220px",
+    "count": 40,
+    "gallery_size": 60
+  },
+  "hog_by_scale": {
+    "1.0": {
+      "detect": {
+        "median_ms": 416.71,
+        "p95_ms": 537.87
+      },
+      "encode": {
+        "median_ms": 12.98,
+        "p95_ms": 35.75
+      },
+      "match": {
+        "median_ms": 0.08,
+        "p95_ms": 0.19
+      },
+      "total": {
+        "median_ms": 433.17,
+        "p95_ms": 568.47
+      },
+      "fps": 2.31,
+      "detection_rate": 1.0
+    },
+    "0.5": {
+      "detect": {
+        "median_ms": 104.85,
+        "p95_ms": 160.81
+      },
+      "encode": {
+        "median_ms": 12.27,
+        "p95_ms": 36.53
+      },
+      "match": {
+        "median_ms": 0.08,
+        "p95_ms": 0.13
+      },
+      "total": {
+        "median_ms": 117.47,
+        "p95_ms": 198.84
+      },
+      "fps": 8.51,
+      "detection_rate": 1.0
+    },
+    "0.25": {
+      "detect": {
+        "median_ms": 30.21,
+        "p95_ms": 55.2
+      },
+      "encode": {
+        "median_ms": 14.58,
+        "p95_ms": 33.79
+      },
+      "match": {
+        "median_ms": 0.09,
+        "p95_ms": 0.14
+      },
+      "total": {
+        "median_ms": 45.62,
+        "p95_ms": 81.04
+      },
+      "fps": 21.92,
+      "detection_rate": 1.0
+    }
+  },
+  "frame_skip": {
+    "1": {
+      "loop_fps": 24.9
+    },
+    "2": {
+      "loop_fps": 52.54
+    },
+    "3": {
+      "loop_fps": 75.3
+    }
+  },
+  "matching_scalability": {
+    "24": {
+      "median_ms": 0.009
+    },
+    "100": {
+      "median_ms": 0.0227
+    },
+    "1000": {
+      "median_ms": 0.1619
+    },
+    "10000": {
+      "median_ms": 1.6477
+    },
+    "100000": {
+      "median_ms": 16.3717
+    }
+  },
+  "cnn_scale_0.25": {
+    "detect": {
+      "median_ms": 189.37,
+      "p95_ms": 264.96
+    },
+    "encode": {
+      "median_ms": 12.58,
+      "p95_ms": 14.1
+    },
+    "match": {
+      "median_ms": 0.08,
+      "p95_ms": 0.1
+    },
+    "total": {
+      "median_ms": 201.58,
+      "p95_ms": 279.13
+    },
+    "fps": 4.96,
+    "detection_rate": 1.0
+  },
+  "two_faces_scale_0.25": {
+    "detect": {
+      "median_ms": 26.3,
+      "p95_ms": 26.65
+    },
+    "encode": {
+      "median_ms": 23.97,
+      "p95_ms": 25.98
+    },
+    "match": {
+      "median_ms": 0.07,
+      "p95_ms": 0.1
+    },
+    "total": {
+      "median_ms": 50.37,
+      "p95_ms": 55.59
+    },
+    "fps": 19.85,
+    "detection_rate": 1.0
+  }
+}

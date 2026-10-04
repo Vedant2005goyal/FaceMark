@@ -1,6 +1,7 @@
-.git
-.vscode
-*.venv
-requirements.txt
-*.ipynb
+.venv/
 .env
+__pycache__/
+.pytest_cache/
+.vscode/
+*.log
+benchmarks/cache/

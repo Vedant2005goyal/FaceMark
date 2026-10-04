@@ -1,0 +1,17 @@
+{
+  "queries": 300,
+  "fresh_connection_per_query": {
+    "median_ms": 4.683,
+    "p95_ms": 15.533
+  },
+  "pooled_connection": {
+    "median_ms": 0.909,
+    "p95_ms": 2.265
+  },
+  "speedup_median": 5.2,
+  "attendance_duplicate_check": {
+    "median_ms": 0.674,
+    "p95_ms": 1.159
+  },
+  "note": "local MySQL on the same machine; a remote DB adds network round trips to both"
+}

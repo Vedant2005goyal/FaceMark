@@ -1,9 +1,8 @@
-version: '3.8'
-
+# MySQL + REST API + scheduler. Credentials come from .env (copy .env.example).
+# The webcam loop (attendance.py) runs on the host, since containers have no camera or screen.
 services:
   mysql:
     image: mysql:8.0
-    container_name: attendance_db
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
       MYSQL_DATABASE: ${DB_NAME}
@@ -11,50 +10,31 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
-    networks:
-      - attendance_network
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql  # runs on first start only
 
   api:
     build: .
-    container_name: attendance_api
-    depends_on:
-      - mysql
+    env_file: .env
     environment:
       DB_HOST: mysql
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_NAME: ${DB_NAME}
-      SENDER_EMAIL: ${SENDER_EMAIL}
-      SENDER_PASSWORD: ${SENDER_PASSWORD}
+      DB_PORT: 3306
+      API_PORT: 5000
     ports:
-      - "5000:5000"
+      - "5050:5000"
     volumes:
-      - ./student_photos:/app/student_photos
-    networks:
-      - attendance_network
+      - ./sample_faces:/app/sample_faces  # photos added on the host are visible without a rebuild
+    depends_on:
+      - mysql
 
   scheduler:
     build: .
-    container_name: attendance_scheduler
-    depends_on:
-      - mysql
     command: python scheduler.py
+    env_file: .env
     environment:
       DB_HOST: mysql
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_NAME: ${DB_NAME}
-      SENDER_EMAIL: ${SENDER_EMAIL}
-      SENDER_PASSWORD: ${SENDER_PASSWORD}
-      AUTO_NOTIFY_ENABLED: "true"
-      AUTO_NOTIFY_SCHEDULE: "18:00"
-    networks:
-      - attendance_network
+      DB_PORT: 3306
+    depends_on:
+      - mysql
 
 volumes:
   mysql_data:
-
-networks:
-  attendance_network:
-    driver: bridge

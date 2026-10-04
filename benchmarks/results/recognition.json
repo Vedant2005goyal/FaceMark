@@ -1,0 +1,1801 @@
+{
+  "dataset": {
+    "name": "LFW (original 13,233-image release)",
+    "enrolled_identities": 119,
+    "impostor_identities": 1039,
+    "genuine_probes": 972,
+    "impostor_probes": 3500,
+    "images_encoded": 5494,
+    "face_not_detected_rate": 0.002730251183108846,
+    "seed": 0
+  },
+  "configs": {
+    "k1_min": {
+      "rank1_accuracy": 0.9567901234567902,
+      "at_app_tolerance": {
+        "threshold": 0.55,
+        "identification_rate": 0.9156378600823045,
+        "false_reject_rate": 0.08436213991769548,
+        "misidentification_rate": 0.012345679012345678,
+        "false_accept_rate": 0.10885714285714286,
+        "overall_accuracy": 0.8964669051878354
+      },
+      "eer": 0.08798236331569664,
+      "eer_threshold": 0.54,
+      "best_threshold_far_le_1pct": {
+        "threshold": 0.48,
+        "identification_rate": 0.727366255144033,
+        "false_reject_rate": 0.27263374485596703,
+        "misidentification_rate": 0.006172839506172839,
+        "false_accept_rate": 0.008857142857142857,
+        "overall_accuracy": 0.9338103756708408
+      },
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "identification_rate": 0.040123456790123455,
+          "false_reject_rate": 0.9598765432098766,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.7913685152057245
+        },
+        {
+          "threshold": 0.31,
+          "identification_rate": 0.04835390946502058,
+          "false_reject_rate": 0.9516460905349794,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.7931574239713775
+        },
+        {
+          "threshold": 0.32,
+          "identification_rate": 0.05864197530864197,
+          "false_reject_rate": 0.941358024691358,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.7953935599284436
+        },
+        {
+          "threshold": 0.33,
+          "identification_rate": 0.08127572016460906,
+          "false_reject_rate": 0.918724279835391,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8003130590339893
+        },
+        {
+          "threshold": 0.34,
+          "identification_rate": 0.10493827160493827,
+          "false_reject_rate": 0.8950617283950617,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8054561717352415
+        },
+        {
+          "threshold": 0.35,
+          "identification_rate": 0.1337448559670782,
+          "false_reject_rate": 0.8662551440329218,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8117173524150268
+        },
+        {
+          "threshold": 0.36,
+          "identification_rate": 0.1728395061728395,
+          "false_reject_rate": 0.8271604938271605,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8202146690518783
+        },
+        {
+          "threshold": 0.37,
+          "identification_rate": 0.20473251028806586,
+          "false_reject_rate": 0.7952674897119342,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8271466905187835
+        },
+        {
+          "threshold": 0.38,
+          "identification_rate": 0.24794238683127573,
+          "false_reject_rate": 0.7520576131687242,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8365384615384616
+        },
+        {
+          "threshold": 0.39,
+          "identification_rate": 0.29012345679012347,
+          "false_reject_rate": 0.7098765432098766,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8457066189624329
+        },
+        {
+          "threshold": 0.4,
+          "identification_rate": 0.3333333333333333,
+          "false_reject_rate": 0.6666666666666667,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.855098389982111
+        },
+        {
+          "threshold": 0.41,
+          "identification_rate": 0.3734567901234568,
+          "false_reject_rate": 0.6265432098765432,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.863819320214669
+        },
+        {
+          "threshold": 0.42,
+          "identification_rate": 0.4218106995884774,
+          "false_reject_rate": 0.5781893004115226,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8743291592128801
+        },
+        {
+          "threshold": 0.43,
+          "identification_rate": 0.4763374485596708,
+          "false_reject_rate": 0.5236625514403292,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.886180679785331
+        },
+        {
+          "threshold": 0.44,
+          "identification_rate": 0.5329218106995884,
+          "false_reject_rate": 0.46707818930041156,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.0008571428571428571,
+          "overall_accuracy": 0.8978085867620751
+        },
+        {
+          "threshold": 0.45,
+          "identification_rate": 0.5864197530864198,
+          "false_reject_rate": 0.4135802469135802,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.0014285714285714286,
+          "overall_accuracy": 0.9089892665474061
+        },
+        {
+          "threshold": 0.46,
+          "identification_rate": 0.6378600823045267,
+          "false_reject_rate": 0.36213991769547327,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.003142857142857143,
+          "overall_accuracy": 0.9188282647584973
+        },
+        {
+          "threshold": 0.47,
+          "identification_rate": 0.6882716049382716,
+          "false_reject_rate": 0.31172839506172845,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.004571428571428572,
+          "overall_accuracy": 0.9286672629695886
+        },
+        {
+          "threshold": 0.48,
+          "identification_rate": 0.727366255144033,
+          "false_reject_rate": 0.27263374485596703,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.008857142857142857,
+          "overall_accuracy": 0.9338103756708408
+        },
+        {
+          "threshold": 0.49,
+          "identification_rate": 0.7613168724279835,
+          "false_reject_rate": 0.23868312757201648,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.013428571428571429,
+          "overall_accuracy": 0.9376118067978533
+        },
+        {
+          "threshold": 0.5,
+          "identification_rate": 0.7983539094650206,
+          "false_reject_rate": 0.2016460905349794,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.018,
+          "overall_accuracy": 0.9420840787119857
+        },
+        {
+          "threshold": 0.51,
+          "identification_rate": 0.831275720164609,
+          "false_reject_rate": 0.16872427983539096,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.02857142857142857,
+          "overall_accuracy": 0.9409660107334525
+        },
+        {
+          "threshold": 0.52,
+          "identification_rate": 0.8600823045267489,
+          "false_reject_rate": 0.13991769547325106,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.040285714285714286,
+          "overall_accuracy": 0.9380590339892666
+        },
+        {
+          "threshold": 0.53,
+          "identification_rate": 0.8847736625514403,
+          "false_reject_rate": 0.1152263374485597,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.05914285714285714,
+          "overall_accuracy": 0.9286672629695886
+        },
+        {
+          "threshold": 0.54,
+          "identification_rate": 0.904320987654321,
+          "false_reject_rate": 0.095679012345679,
+          "misidentification_rate": 0.0102880658436214,
+          "false_accept_rate": 0.08028571428571428,
+          "overall_accuracy": 0.9163685152057245
+        },
+        {
+          "threshold": 0.55,
+          "identification_rate": 0.9156378600823045,
+          "false_reject_rate": 0.08436213991769548,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.10885714285714286,
+          "overall_accuracy": 0.8964669051878354
+        },
+        {
+          "threshold": 0.56,
+          "identification_rate": 0.9218106995884774,
+          "false_reject_rate": 0.07818930041152261,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.144,
+          "overall_accuracy": 0.870304114490161
+        },
+        {
+          "threshold": 0.57,
+          "identification_rate": 0.9310699588477366,
+          "false_reject_rate": 0.06893004115226342,
+          "misidentification_rate": 0.015432098765432098,
+          "false_accept_rate": 0.19057142857142856,
+          "overall_accuracy": 0.8358676207513417
+        },
+        {
+          "threshold": 0.58,
+          "identification_rate": 0.9372427983539094,
+          "false_reject_rate": 0.06275720164609055,
+          "misidentification_rate": 0.01646090534979424,
+          "false_accept_rate": 0.24685714285714286,
+          "overall_accuracy": 0.7931574239713775
+        },
+        {
+          "threshold": 0.59,
+          "identification_rate": 0.9434156378600823,
+          "false_reject_rate": 0.05658436213991769,
+          "misidentification_rate": 0.01954732510288066,
+          "false_accept_rate": 0.3177142857142857,
+          "overall_accuracy": 0.7390429338103757
+        },
+        {
+          "threshold": 0.6,
+          "identification_rate": 0.948559670781893,
+          "false_reject_rate": 0.05144032921810704,
+          "misidentification_rate": 0.02263374485596708,
+          "false_accept_rate": 0.39571428571428574,
+          "overall_accuracy": 0.6791144901610018
+        },
+        {
+          "threshold": 0.61,
+          "identification_rate": 0.9526748971193416,
+          "false_reject_rate": 0.04732510288065839,
+          "misidentification_rate": 0.0257201646090535,
+          "false_accept_rate": 0.482,
+          "overall_accuracy": 0.6124776386404294
+        },
+        {
+          "threshold": 0.62,
+          "identification_rate": 0.9557613168724279,
+          "false_reject_rate": 0.044238683127572065,
+          "misidentification_rate": 0.026748971193415638,
+          "false_accept_rate": 0.574,
+          "overall_accuracy": 0.5411449016100179
+        },
+        {
+          "threshold": 0.63,
+          "identification_rate": 0.9557613168724279,
+          "false_reject_rate": 0.044238683127572065,
+          "misidentification_rate": 0.02880658436213992,
+          "false_accept_rate": 0.6648571428571428,
+          "overall_accuracy": 0.47003577817531306
+        },
+        {
+          "threshold": 0.64,
+          "identification_rate": 0.9567901234567902,
+          "false_reject_rate": 0.043209876543209846,
+          "misidentification_rate": 0.030864197530864196,
+          "false_accept_rate": 0.7345714285714285,
+          "overall_accuracy": 0.41569767441860467
+        },
+        {
+          "threshold": 0.65,
+          "identification_rate": 0.9567901234567902,
+          "false_reject_rate": 0.043209876543209846,
+          "misidentification_rate": 0.0360082304526749,
+          "false_accept_rate": 0.8065714285714286,
+          "overall_accuracy": 0.35934704830053665
+        },
+        {
+          "threshold": 0.66,
+          "identification_rate": 0.9567901234567902,
+          "false_reject_rate": 0.043209876543209846,
+          "misidentification_rate": 0.03806584362139918,
+          "false_accept_rate": 0.8637142857142858,
+          "overall_accuracy": 0.3146243291592129
+        },
+        {
+          "threshold": 0.67,
+          "identification_rate": 0.9567901234567902,
+          "false_reject_rate": 0.043209876543209846,
+          "misidentification_rate": 0.03806584362139918,
+          "false_accept_rate": 0.9068571428571428,
+          "overall_accuracy": 0.2808586762075134
+        },
+        {
+          "threshold": 0.68,
+          "identification_rate": 0.9567901234567902,
+          "false_reject_rate": 0.043209876543209846,
+          "misidentification_rate": 0.0411522633744856,
+          "false_accept_rate": 0.9388571428571428,
+          "overall_accuracy": 0.2558139534883721
+        },
+        {
+          "threshold": 0.69,
+          "identification_rate": 0.9567901234567902,
+          "false_reject_rate": 0.043209876543209846,
+          "misidentification_rate": 0.043209876543209874,
+          "false_accept_rate": 0.962,
+          "overall_accuracy": 0.23770125223613595
+        },
+        {
+          "threshold": 0.7,
+          "identification_rate": 0.9567901234567902,
+          "false_reject_rate": 0.043209876543209846,
+          "misidentification_rate": 0.043209876543209874,
+          "false_accept_rate": 0.9797142857142858,
+          "overall_accuracy": 0.2238372093023256
+        }
+      ]
+    },
+    "k3_min": {
+      "rank1_accuracy": 0.9845679012345679,
+      "at_app_tolerance": {
+        "threshold": 0.55,
+        "identification_rate": 0.9763374485596708,
+        "false_reject_rate": 0.02366255144032925,
+        "misidentification_rate": 0.01131687242798354,
+        "false_accept_rate": 0.176,
+        "overall_accuracy": 0.8571109123434705
+      },
+      "eer": 0.05252028218694886,
+      "eer_threshold": 0.51,
+      "best_threshold_far_le_1pct": {
+        "threshold": 0.46,
+        "identification_rate": 0.8415637860082305,
+        "false_reject_rate": 0.15843621399176955,
+        "misidentification_rate": 0.00205761316872428,
+        "false_accept_rate": 0.009142857142857144,
+        "overall_accuracy": 0.9584078711985689
+      },
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "identification_rate": 0.08436213991769548,
+          "false_reject_rate": 0.9156378600823045,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8009838998211091
+        },
+        {
+          "threshold": 0.31,
+          "identification_rate": 0.10082304526748971,
+          "false_reject_rate": 0.8991769547325102,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.804561717352415
+        },
+        {
+          "threshold": 0.32,
+          "identification_rate": 0.13786008230452676,
+          "false_reject_rate": 0.8621399176954733,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8126118067978533
+        },
+        {
+          "threshold": 0.33,
+          "identification_rate": 0.17592592592592593,
+          "false_reject_rate": 0.8240740740740741,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8208855098389982
+        },
+        {
+          "threshold": 0.34,
+          "identification_rate": 0.22016460905349794,
+          "false_reject_rate": 0.7798353909465021,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8305008944543828
+        },
+        {
+          "threshold": 0.35,
+          "identification_rate": 0.2602880658436214,
+          "false_reject_rate": 0.7397119341563786,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.839221824686941
+        },
+        {
+          "threshold": 0.36,
+          "identification_rate": 0.31995884773662553,
+          "false_reject_rate": 0.6800411522633745,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8521914132379249
+        },
+        {
+          "threshold": 0.37,
+          "identification_rate": 0.36522633744855965,
+          "false_reject_rate": 0.6347736625514404,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8620304114490162
+        },
+        {
+          "threshold": 0.38,
+          "identification_rate": 0.4331275720164609,
+          "false_reject_rate": 0.5668724279835391,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.876788908765653
+        },
+        {
+          "threshold": 0.39,
+          "identification_rate": 0.49897119341563784,
+          "false_reject_rate": 0.5010288065843622,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0008571428571428571,
+          "overall_accuracy": 0.8904293381037567
+        },
+        {
+          "threshold": 0.4,
+          "identification_rate": 0.558641975308642,
+          "false_reject_rate": 0.441358024691358,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0008571428571428571,
+          "overall_accuracy": 0.9033989266547406
+        },
+        {
+          "threshold": 0.41,
+          "identification_rate": 0.6131687242798354,
+          "false_reject_rate": 0.3868312757201646,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.001142857142857143,
+          "overall_accuracy": 0.9150268336314848
+        },
+        {
+          "threshold": 0.42,
+          "identification_rate": 0.6718106995884774,
+          "false_reject_rate": 0.3281893004115226,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.002,
+          "overall_accuracy": 0.9271019677996423
+        },
+        {
+          "threshold": 0.43,
+          "identification_rate": 0.7160493827160493,
+          "false_reject_rate": 0.28395061728395066,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.003142857142857143,
+          "overall_accuracy": 0.9358228980322003
+        },
+        {
+          "threshold": 0.44,
+          "identification_rate": 0.7623456790123457,
+          "false_reject_rate": 0.23765432098765427,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.004,
+          "overall_accuracy": 0.9452146690518783
+        },
+        {
+          "threshold": 0.45,
+          "identification_rate": 0.8034979423868313,
+          "false_reject_rate": 0.19650205761316875,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.006285714285714286,
+          "overall_accuracy": 0.9523703041144902
+        },
+        {
+          "threshold": 0.46,
+          "identification_rate": 0.8415637860082305,
+          "false_reject_rate": 0.15843621399176955,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.009142857142857144,
+          "overall_accuracy": 0.9584078711985689
+        },
+        {
+          "threshold": 0.47,
+          "identification_rate": 0.8693415637860082,
+          "false_reject_rate": 0.13065843621399176,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.014,
+          "overall_accuracy": 0.960644007155635
+        },
+        {
+          "threshold": 0.48,
+          "identification_rate": 0.8991769547325102,
+          "false_reject_rate": 0.10082304526748975,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.022,
+          "overall_accuracy": 0.9608676207513417
+        },
+        {
+          "threshold": 0.49,
+          "identification_rate": 0.9125514403292181,
+          "false_reject_rate": 0.08744855967078191,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.02857142857142857,
+          "overall_accuracy": 0.9586314847942755
+        },
+        {
+          "threshold": 0.5,
+          "identification_rate": 0.9310699588477366,
+          "false_reject_rate": 0.06893004115226342,
+          "misidentification_rate": 0.00411522633744856,
+          "false_accept_rate": 0.03742857142857143,
+          "overall_accuracy": 0.9557245080500895
+        },
+        {
+          "threshold": 0.51,
+          "identification_rate": 0.9475308641975309,
+          "false_reject_rate": 0.05246913580246915,
+          "misidentification_rate": 0.00411522633744856,
+          "false_accept_rate": 0.052571428571428575,
+          "overall_accuracy": 0.9474508050089445
+        },
+        {
+          "threshold": 0.52,
+          "identification_rate": 0.9547325102880658,
+          "false_reject_rate": 0.04526748971193417,
+          "misidentification_rate": 0.00411522633744856,
+          "false_accept_rate": 0.07114285714285715,
+          "overall_accuracy": 0.9344812164579607
+        },
+        {
+          "threshold": 0.53,
+          "identification_rate": 0.9619341563786008,
+          "false_reject_rate": 0.0380658436213992,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.10171428571428572,
+          "overall_accuracy": 0.9121198568872988
+        },
+        {
+          "threshold": 0.54,
+          "identification_rate": 0.9691358024691358,
+          "false_reject_rate": 0.030864197530864224,
+          "misidentification_rate": 0.0102880658436214,
+          "false_accept_rate": 0.13285714285714287,
+          "overall_accuracy": 0.8893112701252236
+        },
+        {
+          "threshold": 0.55,
+          "identification_rate": 0.9763374485596708,
+          "false_reject_rate": 0.02366255144032925,
+          "misidentification_rate": 0.01131687242798354,
+          "false_accept_rate": 0.176,
+          "overall_accuracy": 0.8571109123434705
+        },
+        {
+          "threshold": 0.56,
+          "identification_rate": 0.9804526748971193,
+          "false_reject_rate": 0.019547325102880708,
+          "misidentification_rate": 0.01131687242798354,
+          "false_accept_rate": 0.234,
+          "overall_accuracy": 0.8126118067978533
+        },
+        {
+          "threshold": 0.57,
+          "identification_rate": 0.9814814814814815,
+          "false_reject_rate": 0.01851851851851849,
+          "misidentification_rate": 0.01131687242798354,
+          "false_accept_rate": 0.30542857142857144,
+          "overall_accuracy": 0.7569320214669052
+        },
+        {
+          "threshold": 0.58,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.388,
+          "overall_accuracy": 0.6927549194991055
+        },
+        {
+          "threshold": 0.59,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.013374485596707819,
+          "false_accept_rate": 0.47828571428571426,
+          "overall_accuracy": 0.622093023255814
+        },
+        {
+          "threshold": 0.6,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.013374485596707819,
+          "false_accept_rate": 0.5677142857142857,
+          "overall_accuracy": 0.5521019677996423
+        },
+        {
+          "threshold": 0.61,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.013374485596707819,
+          "false_accept_rate": 0.6574285714285715,
+          "overall_accuracy": 0.48188729874776387
+        },
+        {
+          "threshold": 0.62,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.013374485596707819,
+          "false_accept_rate": 0.7517142857142857,
+          "overall_accuracy": 0.4080948121645796
+        },
+        {
+          "threshold": 0.63,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.013374485596707819,
+          "false_accept_rate": 0.8305714285714285,
+          "overall_accuracy": 0.34637745974955275
+        },
+        {
+          "threshold": 0.64,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.8854285714285715,
+          "overall_accuracy": 0.3034436493738819
+        },
+        {
+          "threshold": 0.65,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.9268571428571428,
+          "overall_accuracy": 0.2710196779964222
+        },
+        {
+          "threshold": 0.66,
+          "identification_rate": 0.9845679012345679,
+          "false_reject_rate": 0.015432098765432056,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.9545714285714286,
+          "overall_accuracy": 0.24955277280858676
+        },
+        {
+          "threshold": 0.67,
+          "identification_rate": 0.9845679012345679,
+          "false_reject_rate": 0.015432098765432056,
+          "misidentification_rate": 0.015432098765432098,
+          "false_accept_rate": 0.97,
+          "overall_accuracy": 0.23747763864042934
+        },
+        {
+          "threshold": 0.68,
+          "identification_rate": 0.9845679012345679,
+          "false_reject_rate": 0.015432098765432056,
+          "misidentification_rate": 0.015432098765432098,
+          "false_accept_rate": 0.9851428571428571,
+          "overall_accuracy": 0.22562611806797853
+        },
+        {
+          "threshold": 0.69,
+          "identification_rate": 0.9845679012345679,
+          "false_reject_rate": 0.015432098765432056,
+          "misidentification_rate": 0.015432098765432098,
+          "false_accept_rate": 0.9931428571428571,
+          "overall_accuracy": 0.2193649373881932
+        },
+        {
+          "threshold": 0.7,
+          "identification_rate": 0.9845679012345679,
+          "false_reject_rate": 0.015432098765432056,
+          "misidentification_rate": 0.015432098765432098,
+          "false_accept_rate": 0.9962857142857143,
+          "overall_accuracy": 0.2169051878354204
+        }
+      ]
+    },
+    "k3_mean": {
+      "rank1_accuracy": 0.992798353909465,
+      "at_app_tolerance": {
+        "threshold": 0.55,
+        "identification_rate": 0.9897119341563786,
+        "false_reject_rate": 0.010288065843621408,
+        "misidentification_rate": 0.0051440329218107,
+        "false_accept_rate": 0.28885714285714287,
+        "overall_accuracy": 0.771690518783542
+      },
+      "eer": 0.035975896531452084,
+      "eer_threshold": 0.48,
+      "best_threshold_far_le_1pct": {
+        "threshold": 0.44,
+        "identification_rate": 0.8868312757201646,
+        "false_reject_rate": 0.11316872427983538,
+        "misidentification_rate": 0.00102880658436214,
+        "false_accept_rate": 0.009428571428571429,
+        "overall_accuracy": 0.9680232558139535
+      },
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "identification_rate": 0.17386831275720166,
+          "false_reject_rate": 0.8261316872427984,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.820438282647585
+        },
+        {
+          "threshold": 0.31,
+          "identification_rate": 0.22633744855967078,
+          "false_reject_rate": 0.7736625514403292,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8318425760286225
+        },
+        {
+          "threshold": 0.32,
+          "identification_rate": 0.2880658436213992,
+          "false_reject_rate": 0.7119341563786008,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8452593917710197
+        },
+        {
+          "threshold": 0.33,
+          "identification_rate": 0.35802469135802467,
+          "false_reject_rate": 0.6419753086419753,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8604651162790697
+        },
+        {
+          "threshold": 0.34,
+          "identification_rate": 0.4269547325102881,
+          "false_reject_rate": 0.573045267489712,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8754472271914132
+        },
+        {
+          "threshold": 0.35,
+          "identification_rate": 0.4763374485596708,
+          "false_reject_rate": 0.5236625514403292,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.886180679785331
+        },
+        {
+          "threshold": 0.36,
+          "identification_rate": 0.5390946502057613,
+          "false_reject_rate": 0.4609053497942387,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8998211091234347
+        },
+        {
+          "threshold": 0.37,
+          "identification_rate": 0.6018518518518519,
+          "false_reject_rate": 0.39814814814814814,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.9134615384615384
+        },
+        {
+          "threshold": 0.38,
+          "identification_rate": 0.6635802469135802,
+          "false_reject_rate": 0.3364197530864198,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.9268783542039356
+        },
+        {
+          "threshold": 0.39,
+          "identification_rate": 0.7119341563786008,
+          "false_reject_rate": 0.2880658436213992,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0008571428571428571,
+          "overall_accuracy": 0.9367173524150268
+        },
+        {
+          "threshold": 0.4,
+          "identification_rate": 0.7592592592592593,
+          "false_reject_rate": 0.2407407407407407,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.001142857142857143,
+          "overall_accuracy": 0.9467799642218246
+        },
+        {
+          "threshold": 0.41,
+          "identification_rate": 0.7973251028806584,
+          "false_reject_rate": 0.2026748971193416,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0025714285714285713,
+          "overall_accuracy": 0.9539355992844365
+        },
+        {
+          "threshold": 0.42,
+          "identification_rate": 0.8333333333333334,
+          "false_reject_rate": 0.16666666666666663,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.004,
+          "overall_accuracy": 0.960644007155635
+        },
+        {
+          "threshold": 0.43,
+          "identification_rate": 0.8549382716049383,
+          "false_reject_rate": 0.1450617283950617,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.006,
+          "overall_accuracy": 0.9637745974955277
+        },
+        {
+          "threshold": 0.44,
+          "identification_rate": 0.8868312757201646,
+          "false_reject_rate": 0.11316872427983538,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.009428571428571429,
+          "overall_accuracy": 0.9680232558139535
+        },
+        {
+          "threshold": 0.45,
+          "identification_rate": 0.9156378600823045,
+          "false_reject_rate": 0.08436213991769548,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.012571428571428572,
+          "overall_accuracy": 0.971824686940966
+        },
+        {
+          "threshold": 0.46,
+          "identification_rate": 0.9300411522633745,
+          "false_reject_rate": 0.06995884773662553,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.015714285714285715,
+          "overall_accuracy": 0.9724955277280859
+        },
+        {
+          "threshold": 0.47,
+          "identification_rate": 0.9516460905349794,
+          "false_reject_rate": 0.048353909465020606,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.023714285714285716,
+          "overall_accuracy": 0.9709302325581395
+        },
+        {
+          "threshold": 0.48,
+          "identification_rate": 0.9609053497942387,
+          "false_reject_rate": 0.039094650205761305,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.032857142857142856,
+          "overall_accuracy": 0.9657871198568873
+        },
+        {
+          "threshold": 0.49,
+          "identification_rate": 0.9691358024691358,
+          "false_reject_rate": 0.030864197530864224,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.044571428571428574,
+          "overall_accuracy": 0.9584078711985689
+        },
+        {
+          "threshold": 0.5,
+          "identification_rate": 0.9732510288065843,
+          "false_reject_rate": 0.026748971193415683,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.06571428571428571,
+          "overall_accuracy": 0.9427549194991055
+        },
+        {
+          "threshold": 0.51,
+          "identification_rate": 0.977366255144033,
+          "false_reject_rate": 0.02263374485596703,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.08914285714285715,
+          "overall_accuracy": 0.9253130590339893
+        },
+        {
+          "threshold": 0.52,
+          "identification_rate": 0.9814814814814815,
+          "false_reject_rate": 0.01851851851851849,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.11657142857142858,
+          "overall_accuracy": 0.9047406082289803
+        },
+        {
+          "threshold": 0.53,
+          "identification_rate": 0.9876543209876543,
+          "false_reject_rate": 0.012345679012345734,
+          "misidentification_rate": 0.00411522633744856,
+          "false_accept_rate": 0.16228571428571428,
+          "overall_accuracy": 0.870304114490161
+        },
+        {
+          "threshold": 0.54,
+          "identification_rate": 0.9886831275720165,
+          "false_reject_rate": 0.011316872427983515,
+          "misidentification_rate": 0.00411522633744856,
+          "false_accept_rate": 0.22314285714285714,
+          "overall_accuracy": 0.8228980322003577
+        },
+        {
+          "threshold": 0.55,
+          "identification_rate": 0.9897119341563786,
+          "false_reject_rate": 0.010288065843621408,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.28885714285714287,
+          "overall_accuracy": 0.771690518783542
+        },
+        {
+          "threshold": 0.56,
+          "identification_rate": 0.9917695473251029,
+          "false_reject_rate": 0.008230452674897082,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.3722857142857143,
+          "overall_accuracy": 0.7068425760286225
+        },
+        {
+          "threshold": 0.57,
+          "identification_rate": 0.9917695473251029,
+          "false_reject_rate": 0.008230452674897082,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.45914285714285713,
+          "overall_accuracy": 0.6388640429338104
+        },
+        {
+          "threshold": 0.58,
+          "identification_rate": 0.9917695473251029,
+          "false_reject_rate": 0.008230452674897082,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.5597142857142857,
+          "overall_accuracy": 0.5601520572450805
+        },
+        {
+          "threshold": 0.59,
+          "identification_rate": 0.9917695473251029,
+          "false_reject_rate": 0.008230452674897082,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.6502857142857142,
+          "overall_accuracy": 0.4892665474060823
+        },
+        {
+          "threshold": 0.6,
+          "identification_rate": 0.9917695473251029,
+          "false_reject_rate": 0.008230452674897082,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.7385714285714285,
+          "overall_accuracy": 0.420169946332737
+        },
+        {
+          "threshold": 0.61,
+          "identification_rate": 0.9917695473251029,
+          "false_reject_rate": 0.008230452674897082,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.8205714285714286,
+          "overall_accuracy": 0.3559928443649374
+        },
+        {
+          "threshold": 0.62,
+          "identification_rate": 0.9917695473251029,
+          "false_reject_rate": 0.008230452674897082,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.8757142857142857,
+          "overall_accuracy": 0.31283542039355994
+        },
+        {
+          "threshold": 0.63,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.918,
+          "overall_accuracy": 0.27996422182468694
+        },
+        {
+          "threshold": 0.64,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9508571428571428,
+          "overall_accuracy": 0.25424865831842575
+        },
+        {
+          "threshold": 0.65,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9688571428571429,
+          "overall_accuracy": 0.24016100178890876
+        },
+        {
+          "threshold": 0.66,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9842857142857143,
+          "overall_accuracy": 0.22808586762075134
+        },
+        {
+          "threshold": 0.67,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9908571428571429,
+          "overall_accuracy": 0.2229427549194991
+        },
+        {
+          "threshold": 0.68,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9945714285714286,
+          "overall_accuracy": 0.22003577817531306
+        },
+        {
+          "threshold": 0.69,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9977142857142857,
+          "overall_accuracy": 0.21757602862254025
+        },
+        {
+          "threshold": 0.7,
+          "identification_rate": 0.992798353909465,
+          "false_reject_rate": 0.007201646090534974,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9994285714285714,
+          "overall_accuracy": 0.21623434704830052
+        }
+      ]
+    },
+    "k5_min": {
+      "rank1_accuracy": 0.98559670781893,
+      "at_app_tolerance": {
+        "threshold": 0.55,
+        "identification_rate": 0.9804526748971193,
+        "false_reject_rate": 0.019547325102880708,
+        "misidentification_rate": 0.009259259259259259,
+        "false_accept_rate": 0.21742857142857142,
+        "overall_accuracy": 0.8255813953488372
+      },
+      "eer": 0.0438618459729571,
+      "eer_threshold": 0.5,
+      "best_threshold_far_le_1pct": {
+        "threshold": 0.44,
+        "identification_rate": 0.8487654320987654,
+        "false_reject_rate": 0.15123456790123457,
+        "misidentification_rate": 0.00102880658436214,
+        "false_accept_rate": 0.008,
+        "overall_accuracy": 0.9608676207513417
+      },
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "identification_rate": 0.13065843621399176,
+          "false_reject_rate": 0.8693415637860082,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.811046511627907
+        },
+        {
+          "threshold": 0.31,
+          "identification_rate": 0.16152263374485595,
+          "false_reject_rate": 0.838477366255144,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8177549194991055
+        },
+        {
+          "threshold": 0.32,
+          "identification_rate": 0.2088477366255144,
+          "false_reject_rate": 0.7911522633744856,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8280411449016101
+        },
+        {
+          "threshold": 0.33,
+          "identification_rate": 0.24794238683127573,
+          "false_reject_rate": 0.7520576131687242,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8365384615384616
+        },
+        {
+          "threshold": 0.34,
+          "identification_rate": 0.30246913580246915,
+          "false_reject_rate": 0.6975308641975309,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8483899821109123
+        },
+        {
+          "threshold": 0.35,
+          "identification_rate": 0.35185185185185186,
+          "false_reject_rate": 0.6481481481481481,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8591234347048301
+        },
+        {
+          "threshold": 0.36,
+          "identification_rate": 0.4228395061728395,
+          "false_reject_rate": 0.5771604938271605,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8745527728085868
+        },
+        {
+          "threshold": 0.37,
+          "identification_rate": 0.46810699588477367,
+          "false_reject_rate": 0.5318930041152263,
+          "misidentification_rate": 0.0,
+          "false_accept_rate": 0.00028571428571428574,
+          "overall_accuracy": 0.8841681574239714
+        },
+        {
+          "threshold": 0.38,
+          "identification_rate": 0.5442386831275721,
+          "false_reject_rate": 0.45576131687242794,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0008571428571428571,
+          "overall_accuracy": 0.9002683363148479
+        },
+        {
+          "threshold": 0.39,
+          "identification_rate": 0.6059670781893004,
+          "false_reject_rate": 0.3940329218106996,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0014285714285714286,
+          "overall_accuracy": 0.9132379248658319
+        },
+        {
+          "threshold": 0.4,
+          "identification_rate": 0.6646090534979424,
+          "false_reject_rate": 0.3353909465020576,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.002,
+          "overall_accuracy": 0.9255366726296959
+        },
+        {
+          "threshold": 0.41,
+          "identification_rate": 0.7150205761316872,
+          "false_reject_rate": 0.28497942386831276,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0034285714285714284,
+          "overall_accuracy": 0.9353756708407871
+        },
+        {
+          "threshold": 0.42,
+          "identification_rate": 0.7592592592592593,
+          "false_reject_rate": 0.2407407407407407,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0034285714285714284,
+          "overall_accuracy": 0.9449910554561717
+        },
+        {
+          "threshold": 0.43,
+          "identification_rate": 0.808641975308642,
+          "false_reject_rate": 0.191358024691358,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.004285714285714286,
+          "overall_accuracy": 0.9550536672629696
+        },
+        {
+          "threshold": 0.44,
+          "identification_rate": 0.8487654320987654,
+          "false_reject_rate": 0.15123456790123457,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.008,
+          "overall_accuracy": 0.9608676207513417
+        },
+        {
+          "threshold": 0.45,
+          "identification_rate": 0.8806584362139918,
+          "false_reject_rate": 0.11934156378600824,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.010571428571428572,
+          "overall_accuracy": 0.9657871198568873
+        },
+        {
+          "threshold": 0.46,
+          "identification_rate": 0.9063786008230452,
+          "false_reject_rate": 0.09362139917695478,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.015142857142857144,
+          "overall_accuracy": 0.9677996422182469
+        },
+        {
+          "threshold": 0.47,
+          "identification_rate": 0.9228395061728395,
+          "false_reject_rate": 0.0771604938271605,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.019428571428571427,
+          "overall_accuracy": 0.9680232558139535
+        },
+        {
+          "threshold": 0.48,
+          "identification_rate": 0.9362139917695473,
+          "false_reject_rate": 0.06378600823045266,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.027428571428571427,
+          "overall_accuracy": 0.9646690518783542
+        },
+        {
+          "threshold": 0.49,
+          "identification_rate": 0.9465020576131687,
+          "false_reject_rate": 0.053497942386831254,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.036571428571428574,
+          "overall_accuracy": 0.9597495527728086
+        },
+        {
+          "threshold": 0.5,
+          "identification_rate": 0.9588477366255144,
+          "false_reject_rate": 0.04115226337448563,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.04657142857142857,
+          "overall_accuracy": 0.9546064400715564
+        },
+        {
+          "threshold": 0.51,
+          "identification_rate": 0.9650205761316872,
+          "false_reject_rate": 0.034979423868312765,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.06514285714285714,
+          "overall_accuracy": 0.9414132379248659
+        },
+        {
+          "threshold": 0.52,
+          "identification_rate": 0.9691358024691358,
+          "false_reject_rate": 0.030864197530864224,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.09085714285714286,
+          "overall_accuracy": 0.9221824686940966
+        },
+        {
+          "threshold": 0.53,
+          "identification_rate": 0.9711934156378601,
+          "false_reject_rate": 0.028806584362139898,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.128,
+          "overall_accuracy": 0.8935599284436494
+        },
+        {
+          "threshold": 0.54,
+          "identification_rate": 0.9783950617283951,
+          "false_reject_rate": 0.021604938271604923,
+          "misidentification_rate": 0.00823045267489712,
+          "false_accept_rate": 0.16742857142857143,
+          "overall_accuracy": 0.8642665474060823
+        },
+        {
+          "threshold": 0.55,
+          "identification_rate": 0.9804526748971193,
+          "false_reject_rate": 0.019547325102880708,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 0.21742857142857142,
+          "overall_accuracy": 0.8255813953488372
+        },
+        {
+          "threshold": 0.56,
+          "identification_rate": 0.9835390946502057,
+          "false_reject_rate": 0.016460905349794275,
+          "misidentification_rate": 0.0102880658436214,
+          "false_accept_rate": 0.2837142857142857,
+          "overall_accuracy": 0.7743738819320215
+        },
+        {
+          "threshold": 0.57,
+          "identification_rate": 0.9845679012345679,
+          "false_reject_rate": 0.015432098765432056,
+          "misidentification_rate": 0.01131687242798354,
+          "false_accept_rate": 0.36657142857142855,
+          "overall_accuracy": 0.7097495527728086
+        },
+        {
+          "threshold": 0.58,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.462,
+          "overall_accuracy": 0.6352862254025045
+        },
+        {
+          "threshold": 0.59,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.5622857142857143,
+          "overall_accuracy": 0.5567978533094812
+        },
+        {
+          "threshold": 0.6,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.6517142857142857,
+          "overall_accuracy": 0.4868067978533095
+        },
+        {
+          "threshold": 0.61,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.7465714285714286,
+          "overall_accuracy": 0.412567084078712
+        },
+        {
+          "threshold": 0.62,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.012345679012345678,
+          "false_accept_rate": 0.8288571428571428,
+          "overall_accuracy": 0.3481663685152057
+        },
+        {
+          "threshold": 0.63,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.013374485596707819,
+          "false_accept_rate": 0.8917142857142857,
+          "overall_accuracy": 0.29897137745974955
+        },
+        {
+          "threshold": 0.64,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.9297142857142857,
+          "overall_accuracy": 0.2692307692307692
+        },
+        {
+          "threshold": 0.65,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.96,
+          "overall_accuracy": 0.24552772808586762
+        },
+        {
+          "threshold": 0.66,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.9751428571428571,
+          "overall_accuracy": 0.2336762075134168
+        },
+        {
+          "threshold": 0.67,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.9854285714285714,
+          "overall_accuracy": 0.22562611806797853
+        },
+        {
+          "threshold": 0.68,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.9934285714285714,
+          "overall_accuracy": 0.2193649373881932
+        },
+        {
+          "threshold": 0.69,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.998,
+          "overall_accuracy": 0.2157871198568873
+        },
+        {
+          "threshold": 0.7,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.01440329218106996,
+          "false_accept_rate": 0.9985714285714286,
+          "overall_accuracy": 0.21533989266547407
+        }
+      ]
+    },
+    "k5_mean": {
+      "rank1_accuracy": 0.9907407407407407,
+      "at_app_tolerance": {
+        "threshold": 0.55,
+        "identification_rate": 0.9907407407407407,
+        "false_reject_rate": 0.0092592592592593,
+        "misidentification_rate": 0.006172839506172839,
+        "false_accept_rate": 0.34314285714285714,
+        "overall_accuracy": 0.7294275491949911
+      },
+      "eer": 0.030803644914756022,
+      "eer_threshold": 0.47,
+      "best_threshold_far_le_1pct": {
+        "threshold": 0.43,
+        "identification_rate": 0.9218106995884774,
+        "false_reject_rate": 0.07818930041152261,
+        "misidentification_rate": 0.00102880658436214,
+        "false_accept_rate": 0.009714285714285713,
+        "overall_accuracy": 0.975402504472272
+      },
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "identification_rate": 0.2736625514403292,
+          "false_reject_rate": 0.7263374485596708,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.842128801431127
+        },
+        {
+          "threshold": 0.31,
+          "identification_rate": 0.3477366255144033,
+          "false_reject_rate": 0.6522633744855967,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8582289803220036
+        },
+        {
+          "threshold": 0.32,
+          "identification_rate": 0.3991769547325103,
+          "false_reject_rate": 0.6008230452674896,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8694096601073346
+        },
+        {
+          "threshold": 0.33,
+          "identification_rate": 0.4588477366255144,
+          "false_reject_rate": 0.5411522633744856,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8823792486583184
+        },
+        {
+          "threshold": 0.34,
+          "identification_rate": 0.5318930041152263,
+          "false_reject_rate": 0.46810699588477367,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.8982558139534884
+        },
+        {
+          "threshold": 0.35,
+          "identification_rate": 0.602880658436214,
+          "false_reject_rate": 0.39711934156378603,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0,
+          "overall_accuracy": 0.9136851520572451
+        },
+        {
+          "threshold": 0.36,
+          "identification_rate": 0.6646090534979424,
+          "false_reject_rate": 0.3353909465020576,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.00028571428571428574,
+          "overall_accuracy": 0.9268783542039356
+        },
+        {
+          "threshold": 0.37,
+          "identification_rate": 0.7211934156378601,
+          "false_reject_rate": 0.2788065843621399,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.0005714285714285715,
+          "overall_accuracy": 0.938953488372093
+        },
+        {
+          "threshold": 0.38,
+          "identification_rate": 0.772633744855967,
+          "false_reject_rate": 0.22736625514403297,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.001142857142857143,
+          "overall_accuracy": 0.9496869409660107
+        },
+        {
+          "threshold": 0.39,
+          "identification_rate": 0.8179012345679012,
+          "false_reject_rate": 0.1820987654320988,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.002285714285714286,
+          "overall_accuracy": 0.9586314847942755
+        },
+        {
+          "threshold": 0.4,
+          "identification_rate": 0.8446502057613169,
+          "false_reject_rate": 0.15534979423868311,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.002857142857142857,
+          "overall_accuracy": 0.9639982110912343
+        },
+        {
+          "threshold": 0.41,
+          "identification_rate": 0.8765432098765432,
+          "false_reject_rate": 0.12345679012345678,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.005142857142857143,
+          "overall_accuracy": 0.9691413237924866
+        },
+        {
+          "threshold": 0.42,
+          "identification_rate": 0.8991769547325102,
+          "false_reject_rate": 0.10082304526748975,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.006857142857142857,
+          "overall_accuracy": 0.9727191413237924
+        },
+        {
+          "threshold": 0.43,
+          "identification_rate": 0.9218106995884774,
+          "false_reject_rate": 0.07818930041152261,
+          "misidentification_rate": 0.00102880658436214,
+          "false_accept_rate": 0.009714285714285713,
+          "overall_accuracy": 0.975402504472272
+        },
+        {
+          "threshold": 0.44,
+          "identification_rate": 0.934156378600823,
+          "false_reject_rate": 0.06584362139917699,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.012857142857142857,
+          "overall_accuracy": 0.9756261180679785
+        },
+        {
+          "threshold": 0.45,
+          "identification_rate": 0.9495884773662552,
+          "false_reject_rate": 0.05041152263374482,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.018,
+          "overall_accuracy": 0.9749552772808586
+        },
+        {
+          "threshold": 0.46,
+          "identification_rate": 0.9598765432098766,
+          "false_reject_rate": 0.04012345679012341,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.022571428571428572,
+          "overall_accuracy": 0.973613595706619
+        },
+        {
+          "threshold": 0.47,
+          "identification_rate": 0.9681069958847737,
+          "false_reject_rate": 0.03189300411522633,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.029714285714285714,
+          "overall_accuracy": 0.9698121645796064
+        },
+        {
+          "threshold": 0.48,
+          "identification_rate": 0.9722222222222222,
+          "false_reject_rate": 0.02777777777777779,
+          "misidentification_rate": 0.00205761316872428,
+          "false_accept_rate": 0.041428571428571426,
+          "overall_accuracy": 0.9615384615384616
+        },
+        {
+          "threshold": 0.49,
+          "identification_rate": 0.9742798353909465,
+          "false_reject_rate": 0.025720164609053464,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.057428571428571426,
+          "overall_accuracy": 0.9494633273703041
+        },
+        {
+          "threshold": 0.5,
+          "identification_rate": 0.9804526748971193,
+          "false_reject_rate": 0.019547325102880708,
+          "misidentification_rate": 0.0030864197530864196,
+          "false_accept_rate": 0.07828571428571429,
+          "overall_accuracy": 0.9344812164579607
+        },
+        {
+          "threshold": 0.51,
+          "identification_rate": 0.98559670781893,
+          "false_reject_rate": 0.014403292181069949,
+          "misidentification_rate": 0.00411522633744856,
+          "false_accept_rate": 0.10685714285714286,
+          "overall_accuracy": 0.9132379248658319
+        },
+        {
+          "threshold": 0.52,
+          "identification_rate": 0.9866255144032922,
+          "false_reject_rate": 0.013374485596707841,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.148,
+          "overall_accuracy": 0.8812611806797853
+        },
+        {
+          "threshold": 0.53,
+          "identification_rate": 0.9886831275720165,
+          "false_reject_rate": 0.011316872427983515,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.20314285714285715,
+          "overall_accuracy": 0.8385509838998211
+        },
+        {
+          "threshold": 0.54,
+          "identification_rate": 0.9886831275720165,
+          "false_reject_rate": 0.011316872427983515,
+          "misidentification_rate": 0.0051440329218107,
+          "false_accept_rate": 0.27114285714285713,
+          "overall_accuracy": 0.7853309481216458
+        },
+        {
+          "threshold": 0.55,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.34314285714285714,
+          "overall_accuracy": 0.7294275491949911
+        },
+        {
+          "threshold": 0.56,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.42914285714285716,
+          "overall_accuracy": 0.6621198568872988
+        },
+        {
+          "threshold": 0.57,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.526,
+          "overall_accuracy": 0.5863148479427549
+        },
+        {
+          "threshold": 0.58,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.6291428571428571,
+          "overall_accuracy": 0.5055903398926654
+        },
+        {
+          "threshold": 0.59,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.006172839506172839,
+          "false_accept_rate": 0.7237142857142858,
+          "overall_accuracy": 0.4315742397137746
+        },
+        {
+          "threshold": 0.6,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.8011428571428572,
+          "overall_accuracy": 0.37097495527728086
+        },
+        {
+          "threshold": 0.61,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.8622857142857143,
+          "overall_accuracy": 0.3231216457960644
+        },
+        {
+          "threshold": 0.62,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.00720164609053498,
+          "false_accept_rate": 0.9142857142857143,
+          "overall_accuracy": 0.2824239713774597
+        },
+        {
+          "threshold": 0.63,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.00823045267489712,
+          "false_accept_rate": 0.952,
+          "overall_accuracy": 0.25290697674418605
+        },
+        {
+          "threshold": 0.64,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 0.9685714285714285,
+          "overall_accuracy": 0.23993738819320215
+        },
+        {
+          "threshold": 0.65,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 0.9828571428571429,
+          "overall_accuracy": 0.2287567084078712
+        },
+        {
+          "threshold": 0.66,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 0.9902857142857143,
+          "overall_accuracy": 0.2229427549194991
+        },
+        {
+          "threshold": 0.67,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 0.9948571428571429,
+          "overall_accuracy": 0.2193649373881932
+        },
+        {
+          "threshold": 0.68,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 0.998,
+          "overall_accuracy": 0.2169051878354204
+        },
+        {
+          "threshold": 0.69,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 0.9988571428571429,
+          "overall_accuracy": 0.21623434704830052
+        },
+        {
+          "threshold": 0.7,
+          "identification_rate": 0.9907407407407407,
+          "false_reject_rate": 0.0092592592592593,
+          "misidentification_rate": 0.009259259259259259,
+          "false_accept_rate": 1.0,
+          "overall_accuracy": 0.21533989266547407
+        }
+      ]
+    }
+  },
+  "recommended": {
+    "config": "k5_mean",
+    "threshold": 0.43,
+    "identification_rate": 0.9218106995884774,
+    "false_reject_rate": 0.07818930041152261,
+    "misidentification_rate": 0.00102880658436214,
+    "false_accept_rate": 0.009714285714285713,
+    "overall_accuracy": 0.975402504472272
+  },
+  "multi_frame_confirmation": {
+    "1": {
+      "identification_rate": 0.9218106995884774,
+      "misidentification_rate": 0.00102880658436214,
+      "false_accept_rate": 0.009714285714285713,
+      "genuine_sequences": 972,
+      "impostor_sequences": 3500
+    },
+    "2": {
+      "identification_rate": 0.8577981651376146,
+      "misidentification_rate": 0.0,
+      "false_accept_rate": 0.0031685678073510772,
+      "genuine_sequences": 436,
+      "impostor_sequences": 1578
+    },
+    "3": {
+      "identification_rate": 0.797427652733119,
+      "misidentification_rate": 0.0,
+      "false_accept_rate": 0.0014144271570014145,
+      "genuine_sequences": 311,
+      "impostor_sequences": 707
+    }
+  }
+}
